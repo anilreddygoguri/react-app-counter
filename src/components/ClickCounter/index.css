@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.counter-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+.count-description {
+  color: #2d3a35;
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .count-description {
+    font-size: 40px;
+  }
+}
+.count {
+  color: #c20a72;
+  font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+  .count {
+    font-size: 44px;
+  }
+}
+.increase-description {
+  color: #2d3a35;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .increase-description {
+    font-size: 18px;
+  }
+}
+.button {
+  border: none;
+  background-color: #007bff;
+  border-radius: 6px;
+  padding: 10px;
+  color: #f1f5f8;
+  cursor: pointer;
+  outline: none;
+}
